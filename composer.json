@@ -1,0 +1,22 @@
+{
+  "name": "megakit/php-huawei-pushkit",
+  "description": "Huawei PushKit SDK for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Semenko",
+      "email": "abler98@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "webmozart/assert": "^1.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "MegaKit\\Huawei\\PushKit\\": "src/"
+    }
+  }
+}
