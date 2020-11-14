@@ -7,6 +7,11 @@ use Webmozart\Assert\Assert;
 class HttpConfigBuilder
 {
     /**
+     * Default request timeout
+     */
+    private const DEFAULT_TIMEOUT = 60;
+
+    /**
      * @var int
      */
     private $timeout;
@@ -22,6 +27,14 @@ class HttpConfigBuilder
     public static function make(): self
     {
         return new static();
+    }
+
+    /**
+     * @return static
+     */
+    public static function withDefaults(): self
+    {
+        return static::make()->setTimeout(self::DEFAULT_TIMEOUT);
     }
 
     /**
