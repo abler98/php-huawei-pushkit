@@ -3,11 +3,19 @@
   "description": "Huawei PushKit SDK for PHP",
   "type": "library",
   "license": "MIT",
+  "homepage": "https://github.com/abler98/php-huawei-pushkit",
   "authors": [
     {
       "name": "Sergey Semenko",
       "email": "abler98@gmail.com"
     }
+  ],
+  "keywords": [
+    "huawei",
+    "hms",
+    "push",
+    "pushkit",
+    "messaging"
   ],
   "require": {
     "php": ">=7.2",
